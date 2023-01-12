@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Julius Sans One", sans-serif;
+}
+
+.header {
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  font-size: 1.4rem;
+  color: #333;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.432);
+  margin-bottom: 2rem;
+}
+.header .menu .list {
+  display: flex;
+  list-style: none;
+}
+.header .menu .list .item:not(:last-child) {
+  margin-right: 1rem;
+}
+.header .menu .list .item .link {
+  color: #333;
+  text-decoration: none;
+}
+
+.form__container {
+  padding: 0px 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.form__container .form__title {
+  font-size: 1.3rem;
+  color: #333;
+}
+.form__container form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+  padding: 20px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.432);
+  border-radius: 7px;
+}
+.form__container form .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.form__container form .form-group label {
+  font-size: 1.2rem;
+}
+.form__container form .form-group input {
+  padding: 10px;
+  font-size: 1.2rem;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #333;
+}
+.form__container form .form-group input::-moz-placeholder {
+  text-transform: capitalize;
+}
+.form__container form .form-group input:-ms-input-placeholder {
+  text-transform: capitalize;
+}
+.form__container form .form-group input::placeholder {
+  text-transform: capitalize;
+}
+.form__container form input[type=submit] {
+  padding: 10px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.products__section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 0 2rem;
+  align-items: center;
+  justify-content: center;
+}
+.products__section .product__container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 30%;
+  padding: 20px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.432);
+  border-radius: 7px;
+  margin: 0 1rem 1rem 0;
+}/*# sourceMappingURL=style.css.map */

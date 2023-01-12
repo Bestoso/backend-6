@@ -1,0 +1,17 @@
+    <div class="products__section" id="pSection">
+        {{#each products}}
+            <div class="product__container">
+                <div class="title__container">
+                    <h2 class="product__title"> {{ title }} </h2>
+                </div>
+                <div class="info__container">
+                    <p class="description"> Descripcion: {{ description }} </p>
+                    <p class="price"> Precio: ${{ price }} </p>
+                    <p class="code"> Codigo: {{ code }} </p>
+                    <p class="status"> Status: {{ status }} </p>
+                    <p class="category"> Categoria: {{ category }} </p>
+                    <p class="thumbnail"> Thumbnails: {{ thumbnail }} </p>
+                </div>
+            </div>
+        {{/each}}
+    </div>
